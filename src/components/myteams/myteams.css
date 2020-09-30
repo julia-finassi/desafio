@@ -5,7 +5,7 @@
     border-radius: 10px;
     padding: 0px;
     box-shadow: 0 0 0.1em rgb(226, 226, 226),  0 0 0.1em rgb(226, 226, 226);
-    max-height: 54%;
+    max-height: 100vh;
     margin-top: 4%;
   }
 
@@ -33,6 +33,7 @@
     border: 0px;
     text-decoration: none;
 }
+
 
 @media not all and (min-width: 770px) {
     .addButton{

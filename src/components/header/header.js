@@ -1,7 +1,6 @@
 import React from 'react';
 import './header.css';
 import logo from "../../logo.png";
-import { Navbar, NavDropdown, Item, Nav, Form, FormControl, Button } from 'react-bootstrap';
 
 const Header = () => {
     return (
