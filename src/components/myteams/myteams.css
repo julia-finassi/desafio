@@ -33,3 +33,10 @@
     border: 0px;
     text-decoration: none;
 }
+
+@media not all and (min-width: 770px) {
+    .addButton{
+        position: absolute;
+        right: 10px;
+    }
+}

@@ -16,7 +16,7 @@ const Top = () => {
             <hr />
             <article className="row">
 
-                <div className="col-sm-12 col-md-12 col-lg-12 tablestop justify-content-center mb-3">
+                <div className="col-sm-12 col-md-12 col-lg-12 tablestop justify-content-center mb-4">
                     <table className="topTable">
                         <thead>
                             <th>Highest avg age</th>

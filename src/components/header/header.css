@@ -22,3 +22,20 @@ img.venturus{
 h3{
     right: 0px;
 }
+.usercircle{
+    background: #f3f5f7;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+h4.textcircle{
+    color: black;
+    font-size: 0.8em;
+    text-align: center;
+    padding-top: 10%;
+}
+h5.username{
+    font-size: 0.6em;
+    margin-right: 0.6em;
+    margin-top: 0.4em;
+}
