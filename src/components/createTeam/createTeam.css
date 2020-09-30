@@ -1,0 +1,74 @@
+
+.formTeam{
+    margin-top: 20px;
+    position: relative;
+    background: white;
+    border-radius: 10px;
+    padding: 0px;
+    box-shadow: 0 0 0.1em rgb(226, 226, 226),  0 0 0.1em rgb(226, 226, 226);
+}
+
+h1{
+  padding-top: 2%;
+  padding-left: 4%;
+  padding-bottom: 1%;
+  color: #552c8a;
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+h3{
+  color: #8e8e8e;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.tag-container {
+  border: 2px solid #ccc;
+  border-radius: 3px;
+  background: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  padding: 6px;
+  overflow-x: scroll;
+  margin: 10px;
+}
+.tag-container .tag {
+  height: 30px;
+  margin: 5px;
+  padding: 5px 6px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background: #eee;
+  display: flex;
+  align-items: center;
+  color: #333;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 1px 1px #fff;
+  cursor: default;
+}
+.tag i {
+  font-size: 16px;
+  color: #666;
+  margin-left: 5px;
+}
+.tag-container input {
+  padding: 5px;
+  font-size: 16px;
+  border: 0;
+  outline: none;
+  font-family: 'Rubik';
+  color: #333;
+  flex: 1;
+}
+form label {
+  font-weight: bold;
+}
+
+.form-group:focus-within label {
+  color: #c50341;
+}
+.form-control:focus {
+  border-color: #c50341;
+  box-shadow: none;
+}

@@ -1,0 +1,46 @@
+.top.container{
+    position: relative;
+    background: white;
+    border-radius: 10px;
+    max-height: 70%;
+    padding: 0px;
+    box-shadow: 0 0 0.1em rgb(226, 226, 226),  0 0 0.1em rgb(226, 226, 226);
+    margin-top: 4%;
+    
+}
+.topTable{
+    width: 40%;
+    
+}
+.wrap{
+    background-color: #e9e3e8;
+    border-radius: 10px;
+    width: 100%;
+    padding: 1%;
+    margin: 0px;
+}
+.tablestop
+{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.topTable tr {
+    background-color: white;
+    border-radius: 6px;
+    border: 0;
+    display: block;
+    margin: 2.5px;
+    padding: 6px;
+}
+
+.topTable tr:hover{
+    
+    box-shadow: 0 0 0 1px #c50341;
+    border-radius: 6px;
+    
+}
+/* .bgcolor{
+    background-color: #e9e3e8;
+} */

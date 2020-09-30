@@ -1,0 +1,35 @@
+
+.myt{
+    position: relative;
+    background: white;
+    border-radius: 10px;
+    padding: 0px;
+    box-shadow: 0 0 0.1em rgb(226, 226, 226),  0 0 0.1em rgb(226, 226, 226);
+    max-height: 54%;
+    margin-top: 4%;
+  }
+
+
+.teams td{
+    border: none;
+    
+}
+.teams th.hr{
+    border-right: 1.5px solid rgb(197, 197, 197);
+}
+.teams tr:hover{
+    color: #b13d7c;
+    background: #f7eef7;
+    border-radius: 10px;
+}
+.addButton{
+    background: rgb(192,14,79);
+    background: linear-gradient(0deg,#853481 10%, #a8397b 70%);
+    box-shadow: 0 0.4em 1em #f378e1;
+    height: 40px;
+    width: 40px;
+    color: white;
+    border-radius: 13px;
+    border: 0px;
+    text-decoration: none;
+}

@@ -1,0 +1,24 @@
+.header{
+    background: rgb(192,14,79);
+    background: linear-gradient(90deg, rgba(192,14,79,1) 20%, rgba(139,32,111,1) 100%);
+    width: 100%;
+    bottom: 0;
+    position: relative;
+    padding: 0px;
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+}
+h2.squadTool{
+    font-size: 20px;
+    padding-top: 8px;
+    margin-left: 10px;
+}
+img.venturus{
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+}
+h3{
+    right: 0px;
+}
