@@ -9,11 +9,14 @@ import Picked from './components/picked';
 import { Container, Row, Col } from 'react-bootstrap';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
+import { GlobalProvider } from './context/GlobalState';
+
 function App() {
 
   function Home() {
     return (
       <div className="content-wrap">
+        {/* <GlobalProvider> */}
         <Container>
           <Row>
             <Col>
@@ -26,6 +29,7 @@ function App() {
           </Row>
         </Container>
         <Route path='/' exact />
+        {/* </GlobalProvider> trying to use ContextApi to manipulate data */}
       </div>
     );
   }

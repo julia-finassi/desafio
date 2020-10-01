@@ -1,10 +1,11 @@
-import React, { Component } from 'react';
+import React, { Component, useContext } from 'react';
 import './myteams.css';
 import { Link } from 'react-router-dom';
 import api from "../../services/api";
 import { MdShare, MdDelete, MdEdit } from "react-icons/md";
 import { GoPlus } from "react-icons/go";
 import ReactTooltip from "react-tooltip";
+
 
 class Render extends Component {
     state = {
@@ -39,6 +40,9 @@ class Render extends Component {
 }
 
 const Myteams = () => {
+    // state = {
+    //     coments: [] 
+    // }
     
     const teams = [
         { id: "aaa", name: "bbb", description: "ccc" },
@@ -49,7 +53,7 @@ const Myteams = () => {
             <tr key={coments.index}>
                 <td>{coments.name}</td>
                 <td>{coments.hair_color}</td>
-                <td>
+                <button>
                         <MdShare data-tip data-for="shareTip" />
 
                         <ReactTooltip id="shareTip" place="top" effect="solid">
@@ -64,7 +68,7 @@ const Myteams = () => {
                             Edit
                         </ReactTooltip>
                     
-                </td>
+                </button>
 
             </tr>
         );
